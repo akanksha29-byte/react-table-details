@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+  height : 500px;
+}
+table thead{
+  background-color: cornflowerblue;
+}
+
+table tr td {
+  border:  1px solid black
+}
+
+table tbody tr:nth-child(odd){
+  background-color: honeydew
+}
+
+table tbody tr:nth-child(even){
+  background-color: paleturquoise
+}
